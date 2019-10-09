@@ -1,6 +1,7 @@
 .wrapper {
   padding-top: 50px;
-  background: #ECEFF1;
+  background: url('https://www.lesleyfriedmann.com/uploads/3/4/5/2/34521419/65-00096-web_2_orig.jpg');
+  opacity: 80%;
   height: 100%;
   display: flex;
   flex-flow: row wrap;

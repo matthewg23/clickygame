@@ -7,30 +7,41 @@ import friends from "./friends.json";
 class App extends Component {
   // Setting this.state.friends to the friends json array
   state = {
-    friends
+    friends,
+    score: 0
   };
 
-  removeFriend = id => {
-    // Filter this.state.friends for friends with an id not equal to the id being removed
-    const friends = this.state.friends.filter(friend => friend.id !== id);
-    // Set this.state.friends equal to the new friends array
-    this.setState({ friends });
+
+
+  handleClick = event => {
+    // Destructure the name and value properties off of event.target
+    // Update the appropriate state
+
+    console.log(event.target);
+    const {value, name } = event.target;
+    console.log(event.target.alt + ":" + this.state.score);
+    console.log(event.target.clickedonce);
+    this.setState({
+      [name]: value,
+      score: this.state.score + 1
+    });
+    console.log("score" + ": " + this.state.score);
   };
+
 
   // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
     return (
       <Wrapper>
-        <Title>Clicky Game</Title>
-        {this.state.friends.map(friend => (
+        <Title>Clicky Picture Game</Title>
+        {this.state.friends.map(picture => (
           <FriendCard
-            removeFriend={this.removeFriend}
-            id={friend.id}
-            key={friend.id}
-            name={friend.name}
-            image={friend.image}
-            occupation={friend.occupation}
-            location={friend.location}
+            onClick = {this.handleClick}
+            id={picture.id}
+            key={picture.id}
+            value={picture.clickedonce}
+            name={picture.name}
+            image={picture.image}
           />
         ))}
       </Wrapper>
