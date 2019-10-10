@@ -3,13 +3,13 @@
     "id": 1,
     "name": "Reuben",
     "image": "https://w3.chabad.org/media/images/977/CHrx9775835.jpg",
-    "clickedonce": "false"
+    "clickedonce": 0
   },
   {
     "id": 2,
     "name": "Simeon",
     "image": "https://w3.chabad.org/media/images/977/ybkH9775836.jpg",
-    "clickedonce": "false"
+    "clickedonce": 0
   },
   {
     "id": 3,
@@ -21,54 +21,54 @@
     "id": 4,
     "name": "Judah",
     "image": "https://w3.chabad.org/media/images/977/hcQk9775838.jpg",
-    "clickedonce": "false"
+    "clickedonce": 0
   },
   {
     "id": 5,
     "name": "Issachar",
     "image": "https://w3.chabad.org/media/images/977/GbqP9775839.jpg",
-    "clickedonce": "false"
+    "clickedonce": 0
   },
   {
     "id": 6,
     "name": "Zebulun",
     "image": "https://w3.chabad.org/media/images/977/mmbE9775841.jpg",
-    "clickedonce": "false"
+    "clickedonce": 0
   },
   {
     "id": 7,
     "name": "Dan",
     "image": "https://w3.chabad.org/media/images/977/MNMD9775831.jpg",
-    "clickedonce": "false"
+    "clickedonce": 0
   },
   {
     "id": 8,
     "name": "Naphtali",
     "image": "https://w3.chabad.org/media/images/977/KXHr9775834.jpg",
-    "clickedonce": "false"
+    "clickedonce": 0
   },
   {
     "id": 9,
     "name": "Gad",
     "image": "https://w3.chabad.org/media/images/977/JnED9775832.jpg",
-    "clickedonce": "false"
+    "clickedonce": 0
   },
   {
     "id": 10,
     "name": "Asher",
     "image": "https://w3.chabad.org/media/images/977/VhHy9775827.jpg",
-    "clickedonce": "false"
+    "clickedonce": 0
   },
   {
     "id": 11,
     "name": "Joseph",
     "image": "https://w3.chabad.org/media/images/977/BVix9775840.jpg",
-    "clickedonce": "false"
+    "clickedonce": 0
   },
   {
     "id": 12,
     "name": "Benjamin",
     "image": "https://w3.chabad.org/media/images/977/Uorg9775830.jpg",
-    "clickedonce": "false"
+    "clickedonce": 0
   }
 ]

@@ -1,16 +1,18 @@
 import React from "react";
 import "./style.css";
 
-function FriendCard(props) {
-  return (
-    <div className="card">
 
+
+const FriendCard = props => (
+  
+    <div className="card" onClick={() => props.clickCount(props.id)}>
+      
       <div className="img-container">
-        <img clickedonce={props.value} onClick={props.onClick} alt={props.name} src={props.image} />
+        <img alt={props.name} src={props.image} />
       </div>
 
     </div>
   );
-}
+
 
 export default FriendCard;
